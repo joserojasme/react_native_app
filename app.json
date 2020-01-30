@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "FacilYa",
+    "slug": "FacilYa",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icono.png",
+    "splash": {
+      "image": "./src/assets/images/BackgroundInitial.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#032428"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.facilya"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
